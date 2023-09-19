@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
+import {FaBars, FaTimes, FaGithub} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Logo from '../assets/logo.png'
@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f]  text-gray-300'>
         <div>
-        <img src={Logo} alt="Logo Image" style={{width: '70px'}} />
+        <img src={Logo} alt="" style={{width: '70px'}} />
 
       
 
@@ -101,7 +101,7 @@ const Navbar = () => {
           </a>
         </li>
         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-          <a className='flex justify-between w-full text-gray-300' href={Resume} target="_blank" >
+          <a className='flex justify-between w-full text-gray-300' href={Resume}  >
             Resume <BsFillPersonLinesFill size={30} />
           </a>
         </li>
