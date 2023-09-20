@@ -1,9 +1,10 @@
 import React from 'react'
-import WorkImg from '../assets/projects/workImg.jpeg'
 import Library from '../assets/projects/library.jpg' 
 import ResponsiveWeb from '../assets/projects/ResponsiveWebsite.jpg'
 import StreamingWeb from '../assets/projects/streamingWebsite.jpg'
 import BugTracker from '../assets/projects/bugTracker.jpg'
+import MERN from '../assets/projects/MRN.jpg'
+import StateAPI from '../assets/projects/stateAPI.jpg'
 
 
 
@@ -15,7 +16,9 @@ const Work = () => {
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div className='pb-8'>
             <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#58b6d8]'>Work</p>
-            <p className='py-6'> Check out some of my recent projects</p>
+            <p className='py-6'> Check out some of my recent projects.  </p>
+            <p className='text-xs'> (The Library and IssueTracker App are hosted
+            on Render spin down with inactivity it may take a minute for the page load after clicking the demo link.) </p>
           </div>
 
         {/** Container */}
@@ -103,21 +106,21 @@ const Work = () => {
             </div>
 
              {/**Grid Item */}
-             <div style={{backgroundImage:`url(${Library})`}} 
+             <div style={{backgroundImage:`url(${StateAPI})`}} 
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                
                {/* Hover Effects */}
               <div className='opacity-0 group-hover:opacity-100'>
-                <span className='text-2xl font-bold text-white tracking-wider'> 
+                <span className='text-2xl font-bold text-white tracking-wider'> States REST API
 
                 </span>
                   <div className='pt-8 text-center'>
                     
-                    <a href="/">
+                    <a href="https://lacy-adaptable-society.glitch.me/states">
                       <button className='text-center rounded-lg px-4 py-3 m-2  bg-white text-gray-700 font-bold text-lg'>Demo</button>
                     
                     </a>
-                    <a href="/">
+                    <a href="https://github.com/lmyers427/finalProjectLaurenMyers">
                       <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                     
                     </a>
@@ -130,22 +133,22 @@ const Work = () => {
             </div>
 
             {/**Grid Item */}
-            <div style={{backgroundImage:`url(${WorkImg})`}} 
+            <div style={{backgroundImage:`url(${MERN})`}} 
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                
                {/* Hover Effects */}
               <div className='opacity-0 group-hover:opacity-100'>
-                <span className='text-2xl font-bold text-white tracking-wider'> States API
+                <span className='text-2xl font-bold text-white tracking-wider'> MERN PROJECT
 
                 </span>
                   <div className='pt-8 text-center'>
                     
                     <a href="/">
-                      <button className='text-center rounded-lg px-4 py-3 m-2  bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                      <button className='text-center rounded-lg px-4 py-3 m-2  bg-white text-gray-700 font-bold text-lg'>Coming</button>
                     
                     </a>
                     <a href="/">
-                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Soon</button>
                     
                     </a>
 

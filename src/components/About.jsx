@@ -21,7 +21,7 @@ const About = () => {
                 <p>
                     I am a recent graduate of Fort Hays State University with a Bachelors degree in Computer Science. 
                     I am skilled in a variety of programming languages and have taken on various projects 
-                    individually and with colleugues to expand my knowledge of web design and ultimately learn how to provide clients with high quality work.  
+                    individually and with colleagues to expand my knowledge of web design and ultimately learn how to provide clients with high quality work.  
                     I am passionate about producing exceptional work and strive to improve businesses one line of code at a time.   
                 </p>
             </div>
