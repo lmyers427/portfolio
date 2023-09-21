@@ -18,7 +18,7 @@ const Work = () => {
             <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#58b6d8]'>Work</p>
             <p className='py-6'> Check out some of my recent projects.  </p>
             <p className='text-xs'> (The Library and IssueTracker App are hosted
-            on Render spin down with inactivity it may take a minute for the page load after clicking the demo link.) </p>
+            on Render, which spin down with inactivity. It may take a few minutes for the page load after clicking these demo links.) </p>
           </div>
 
         {/** Container */}
