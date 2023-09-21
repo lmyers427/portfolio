@@ -7,10 +7,31 @@ import React from 'react'
 
 const Contact = () => {
 
+  const handleSubmit = async (e) => {
+    e.preventDefault(); // Prevent the default form submission behavior
+    
+    // You can access form data here and send it to Netlify or perform other actions as needed
+    
+    try {
+      const response = await fetch('/', {
+        method: 'POST',
+        body: new FormData(e.target), // Send form data to Netlify
+      });
+      if (response.ok) {
+        // Handle successful submission
+        console.log('Form submitted successfully');
+      } else {
+        // Handle submission errors
+        console.error('Form submission failed');
+      }
+    } catch (error) {
+      console.error('Error:', error);
+    }
+  };
 
   return (
-    <div className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4'>
-      <form name="contact" method='post' data-netlify="true" data-netlify-honeypot="bot-field" onSubmit="submit"  className='flex flex-col max-w-[600px] w-full'>
+    <div name="contact" className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4'>
+      <form name="contact" method='post' data-netlify="true" data-netlify-honeypot="bot-field" onSubmit={handleSubmit}  className='flex flex-col max-w-[600px] w-full'>
 
         <div className='pb-8'>
             <p className='text-4xl font-bold inline border-b-4 border-[#58b6d8] text-gray-300'>Contact</p>
