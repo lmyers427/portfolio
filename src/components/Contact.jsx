@@ -27,9 +27,6 @@ const Contact = () => {
     }
   };
 
-  document
-    .querySelector("form")
-    .addEventListener("submit", handleSubmit)
 
 
   return (
