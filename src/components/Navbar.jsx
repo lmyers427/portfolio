@@ -47,6 +47,7 @@ const Navbar = () => {
               Contact
               </Link>
             </li>
+            
         </ul>
     {/**Hamburger */}
     <div onClick={handleClick} className='md:hidden z-10'>
