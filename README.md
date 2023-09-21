@@ -1,3 +1,3 @@
 #My Portfolio 
-https://lauren-myers-portfolio.netlify.app/
+https://myers-portfolio.netlify.app/
 
