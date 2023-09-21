@@ -27,6 +27,10 @@ const Contact = () => {
     }
   };
 
+  document
+    .querySelector("form")
+    .addEventListener("submit", handleSubmit)
+
 
   return (
     <div className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4'>
@@ -41,7 +45,7 @@ const Contact = () => {
          <input className='my-4 p-2 bg-[#ccd6f6]' type="email" placeholder='Email' name='email' />   
         <textarea className='bg-[#ccd6f6] p-2' name="message" placeholder='Message' rows="10"></textarea>
         
-        <button type="submit" className='text-white border-2 hover:bg-[#58b6d8] hover:border[#58b6d8] px-4 py-3 my-8 mx-auto flex items-center'>Let's Collaborate</button>
+        <button type="submit" className='text-white border-2 hover:bg-[#58b6d8] hover:border-[#58b6d8] px-4 py-3 my-8 mx-auto flex items-center'>Let's Collaborate</button>
       </form>
     </div>
   )
