@@ -1,10 +1,11 @@
 import React from 'react'
 import Library from '../assets/projects/library.jpg' 
 import TableauDash from '../assets/projects/TableauDash.png'
-import StreamingWeb from '../assets/projects/streamingWebsite.jpg'
-import BugTracker from '../assets/projects/bugTracker.jpg'
-import MERN from '../assets/projects/MRN.jpg'
-import StateAPI from '../assets/projects/stateAPI.jpg'
+import USDAWriteUp from '../assets/projects/USDAWriteup.png'
+import USDAPowerPoint from '../assets/projects/USDAPowerPoint.png'
+import USDAPDFPWR from'../assets/pdfs/usdaPresentation.pdf'
+import USDAPDFWU from '../assets/pdfs/usdaWriteup.pdf'
+
 
 
 
@@ -28,13 +29,13 @@ const Work = () => {
                
                {/* Hover Effects */}
               <div className='opacity-0 group-hover:opacity-100'>
-                <span className='text-2xl font-bold text-white tracking-wider'> USDA Tableau Dashboard
+                <span className='text-2xl font-bold text-white tracking-wider'> USDA Dashboard
 
                 </span>
                   <div className='pt-8 text-center'>
                     
                    
-                    <a href="https://public.tableau.com/app/profile/lauren.myers5575/viz/PesticideAnalysis/USDAPesticideResidueAnalysis">
+                    <a href={USDAPDFPWR}>
                       <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>View</button>
                     
                     </a>
@@ -47,22 +48,19 @@ const Work = () => {
             </div>
 
              {/**Grid Item */}
-             <div style={{backgroundImage:`url(${StreamingWeb})`}} 
+             <div style={{backgroundImage:`url(${USDAPowerPoint})`}} 
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                
                {/* Hover Effects */}
               <div className='opacity-0 group-hover:opacity-100'>
-                <span className='text-2xl font-bold text-white tracking-wider'> Streaming Website
+                <span className='text-2xl font-bold text-white tracking-wider'> USDA Presentation
 
                 </span>
                   <div className='pt-8 text-center'>
                     
-                    <a href="https://netflix-clone-dc4c4.firebaseapp.com">
-                      <button className='text-center rounded-lg px-4 py-3 m-2  bg-white text-gray-700 font-bold text-lg'>Demo</button>
                     
-                    </a>
-                    <a href="https://github.com/lmyers427/netflix-clone">
-                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                    <a href={USDAPDFPWR}>
+                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>View</button>
                     
                     </a>
 
@@ -74,22 +72,18 @@ const Work = () => {
             </div>
 
             {/**Grid Item */}
-            <div style={{backgroundImage:`url(${BugTracker})`}} 
+            <div style={{backgroundImage:`url(${USDAWriteUp})`}} 
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                
                {/* Hover Effects */}
               <div className='opacity-0 group-hover:opacity-100'>
-                <span className='text-2xl font-bold text-white tracking-wider'> Issue Tracker
+                <span className='text-2xl font-bold text-white tracking-wider'> USDA WriteUp
 
                 </span>
                   <div className='pt-8 text-center'>
                     
-                    <a href="https://issuetracker-grl6.onrender.com">
-                      <button className='text-center rounded-lg px-4 py-3 m-2  bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                    
-                    </a>
-                    <a href="https://github.com/lmyers427/issueTracker">
-                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                    <a href={USDAPDFWU}>
+                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>View</button>
                     
                     </a>
 
