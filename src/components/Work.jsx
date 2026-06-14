@@ -1,5 +1,4 @@
 import React from 'react'
-import Library from '../assets/projects/library.jpg' 
 import TableauDash from '../assets/projects/TableauDash.png'
 import USDAWriteUp from '../assets/projects/USDAWriteup.png'
 import USDAPowerPoint from '../assets/projects/USDAPowerPoint.png'
