@@ -10,10 +10,13 @@ const Home = () => {
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         <p className='text-[#58b6d8]'>Hi, my name is</p>
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>Lauren Myers</h1>
-        <h2 className='text-4xl sm-text-7xl font-bold text-[#8892b0]'>I'm a Junior Developer</h2>
-        <p className='text-[#8892b0] py-4 max-w-[700px]'>I'm a junior developer specializing in building and 
-        designing exceptional digital experiences. Currently, I'm focused on 
-        building responsive full-stack web applications. </p>
+        <h2 className='text-4xl sm-text-7xl font-bold text-[#8892b0]'>I'm a Junior Data Analyst</h2>
+        <p className='text-[#8892b0] py-4 max-w-[700px]'>
+          I'm a data analyst with a background in computer science and government finance, 
+          bringing both technical skills and domain expertise to every project. 
+          I work across the full analytics pipeline, 
+          from data cleaning in Python to interactive dashboards in Tableau.
+           </p>
      
       <div> 
       <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#47565c] hover:border-[#47565c]'>

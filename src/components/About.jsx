@@ -14,15 +14,14 @@ const About = () => {
             <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
            <div>
             <p className='sm:text-right text-4xl font-bold'>
-                Entry-Level Web Developer Based in Utah
+                Junior Data Analyst Based in Utah
             </p>
             </div>
             <div>
                 <p>
-                    I am a recent graduate of Fort Hays State University with a Bachelors degree in Computer Science. 
-                    I am skilled in a variety of programming languages and have taken on various projects 
-                    individually and with colleagues to expand my knowledge of web design and ultimately learn how to provide clients with high quality work.  
-                    I am passionate about producing exceptional work and strive to improve businesses one line of code at a time.   
+                   I hold a Bachelor's degree in Computer Science from Fort Hays State University. 
+                   My technical toolkit includes Python, SQL, and Tableau, applied across end-to-end projects in data cleaning, exploratory analysis, and dashboard development. 
+                   I'm passionate about turning complex datasets into clear insights that help organizations make better decisions.
                 </p>
             </div>
             </div>
