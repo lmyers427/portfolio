@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {FaBars, FaTimes, FaGithub} from 'react-icons/fa'
+import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Logo from '../assets/logo.png'
@@ -86,11 +86,11 @@ const Navbar = () => {
     <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
 
       <ul>
-        {/* <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-          <a className='flex justify-between w-full text-gray-300' href="/">
+         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+          <a className='flex justify-between w-full text-gray-300' href="https://linkedin.com/in/lauren-m-a49543233">
             LinkedIn <FaLinkedin size={30} />
           </a>
-        </li> */}
+        </li> 
         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
           <a className='flex justify-between w-full text-gray-300' href="https://github.com/lmyers427">
             GitHub <FaGithub size={30} />
