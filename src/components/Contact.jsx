@@ -13,7 +13,7 @@ const Contact = () => {
 
         <div className='pb-8'>
             <p className='text-4xl font-bold inline border-b-4 border-[#58b6d8] text-gray-300'>Contact</p>
-            <p className='text-gray-300 py-4'> Submit the form below or send me an email - lauren.m.scott427@gmail.com</p>
+            <p className='text-gray-300 py-4'> Submit the form below or send me an email - lauren.myers427@outlook.com</p>
         </div>
         <input type="hidden" name="form-name" value="contact" />
 

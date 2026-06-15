@@ -28,7 +28,7 @@ const Work = () => {
                
                {/* Hover Effects */}
               <div className='opacity-0 group-hover:opacity-100'>
-                <span className='text-2xl font-bold text-white tracking-wider'> USDA Dashboard
+                <span className='text-2xl font-bold text-white tracking-wider'> Interactive Dashboard
 
                 </span>
                   <div className='pt-8 text-center'>
@@ -47,12 +47,12 @@ const Work = () => {
             </div>
 
              {/**Grid Item */}
-             <div style={{backgroundImage:`url(${USDAPowerPoint})`}} 
+             <div style={{backgroundImage:`url(${USDAPowerPoint})`}}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                
                {/* Hover Effects */}
               <div className='opacity-0 group-hover:opacity-100'>
-                <span className='text-2xl font-bold text-white tracking-wider'> USDA Presentation
+                <span className='text-2xl font-bold text-white tracking-wider'> Project Presentation
 
                 </span>
                   <div className='pt-8 text-center'>
@@ -76,7 +76,7 @@ const Work = () => {
                
                {/* Hover Effects */}
               <div className='opacity-0 group-hover:opacity-100'>
-                <span className='text-2xl font-bold text-white tracking-wider'> USDA WriteUp
+                <span className='text-2xl font-bold text-white tracking-wider'> Analysis Write Up
 
                 </span>
                   <div className='pt-8 text-center'>
